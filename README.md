@@ -20,14 +20,15 @@ OUR IMPLEMENTATION
 
 We have tried to mirror Compass’s design for the module. Salient features:
 
-Configurable Variables: Base Font Size, Base Line Height, Rhythm Border Style,
-Relative Font Sizing, Round To Nearest Half Line, Font Unit.
+Configurable Variables: Base Font Size, Base Line Height, Rhythm Border Style, Relative Font Sizing, Round To Nearest Half Line, Font Unit.
 
 
 Mixins Included:
 
 o establishBaseline : Establishes the baseline for the given CSSState
+
 o Baseline : Returns baseline CSS
+
 o Rhythm : Calculate rhythm units
 o toFontSize
 o fontSize : returns Css to adjust Fontsize of a element
