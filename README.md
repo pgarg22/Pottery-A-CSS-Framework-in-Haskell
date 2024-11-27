@@ -1,4 +1,4 @@
-Pottery - A CSS Framwork in CLay Haskell
+Pottery - A CSS Framwork in Haskell
 =======
 
 We have developed fuctional libraries for automatic generation of CSS using popular design paradigms.  For this we ha have used Clay which is a CSS preprocessor like LESS and Sass, but implemented as an embedded domain specific language (EDSL) in Haskell. This means that all CSS selectors and style rules are first class Haskell functions, which makes reuse and composability easy. We have developed two libraries using Vertical Rhythm design paradigm and Golden Ration design paradigm in this project.
