@@ -3,9 +3,9 @@ Pottery - A CSS Framwork in CLay Haskell
 
 We have developed fuctional libraries for automatic generation of CSS using popular design paradigms.  For this we ha have used Clay which is a CSS preprocessor like LESS and Sass, but implemented as an embedded domain specific language (EDSL) in Haskell. This means that all CSS selectors and style rules are first class Haskell functions, which makes reuse and composability easy. We have developed two libraries using Vertical Rhythm design paradigm and Golden Ration design paradigm in this project.
 
-VERTICAL RHYTHM
+**VERTICAL RHYTHM**
 
-CONCEPT
+**CONCEPT**
 
 In design, vertical rhythm is the structure that guides a reader’s eye through the content.
 Good vertical rhythm makes a layout more balanced and beautiful and its content more
@@ -16,12 +16,12 @@ suitable line height that can be applied to all text on the page is the key to a
 dependable vertical rhythm, which will engage and guide the reader down the page.
 
 
-OUR IMPLEMENTATION
+**OUR IMPLEMENTATION-**
 
-Configurable Variables: Base Font Size, Base Line Height, Rhythm Border Style, Relative Font Sizing, Round To Nearest Half Line, Font Unit.
+**Configurable Variables**- Base Font Size, Base Line Height, Rhythm Border Style, Relative Font Sizing, Round To Nearest Half Line, Font Unit.
 
 
-Mixins Included:
+**Mixins Include-**
 
 o establishBaseline : Establishes the baseline for the given CSSState
 
@@ -63,9 +63,10 @@ o hBorder : Alias for horizontal-border.
 
 
 
-GOLDEN RATIO
 
-CONCEPT
+**GOLDEN RATIO**
+
+**CONCEPT**
 
 When designing the visual aspect to a website or creating images in general the dilemma of
 choosing proportions inevitably comes up. The Golden Ratio or ‘φ’ which equals 1.618 in
@@ -76,19 +77,19 @@ rectangle in the design of the buildings; the Parthenon is a good example of thi
 modern architecture, the golden rectangle has a strong presence. Even in modern web
 design, the Golden ratio has proven its worth for aesthetics.
 
-OUR IMPLEMENTATION
+**OUR IMPLEMENTATION**
 
- The mixins included are:
+**Mixins Include-**
 
- grTitleSize : Returns CSS of title size based on content width.
+o grTitleSize - Returns CSS of title size based on content width.
 
- grHeadlineSize : Returns CSS of headline size based on content width.
+o grHeadlineSize - Returns CSS of headline size based on content width.
 
- grSubHeadlineSize : Returns CSS of subheadline size based on content width.
+o grSubHeadlineSize - Returns CSS of subheadline size based on content width.
 
- grFontSize : Returns CSS of Font size based on content width.
+o grFontSize - Returns CSS of Font size based on content width.
 
- grSecondaryText : Returns CSS of Secondary Text based on content width.
+o grSecondaryText - Returns CSS of Secondary Text based on content width.
 
  grBaseLineheight : Returns CSS of default line-height based on content width.
 
