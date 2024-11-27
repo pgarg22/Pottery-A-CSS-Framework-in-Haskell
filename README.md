@@ -17,8 +17,6 @@ dependable vertical rhythm, which will engage and guide the reader down the page
 
 
 OUR IMPLEMENTATION
-
-We have tried to mirror Compass’s design for the module. Salient features:
 
 Configurable Variables: Base Font Size, Base Line Height, Rhythm Border Style, Relative Font Sizing, Round To Nearest Half Line, Font Unit.
 
@@ -30,21 +28,37 @@ o establishBaseline : Establishes the baseline for the given CSSState
 o Baseline : Returns baseline CSS
 
 o Rhythm : Calculate rhythm units
-o toFontSize
+
+o toFontSize: changes fontsize
+
 o fontSize : returns Css to adjust Fontsize of a element
+
 o linesToFontSize : Calculate the minimum multiple of rhythm units needed to contain the font-size.
+
 o Leader : Apply leading whitespace. The property can be margin or padding. By default property is margin.
+
 o paddingLeader : Apply leading whitespace as padding.
+
 o paddingTrailer : Apply trailing whitespace as padding.
+
 o marginLeader : Apply leading whitespace as margin.
+
 o Trailer : Apply trailing whitespace. The property can be margin or padding. By default property is margin.
+
 o marginTrailer : Apply trailing whitespace as margin.
+
 o propertyRhythm : Shorthand function to apply whitespace for top and bottom margins and padding. Takes the number of lines for each property with default value 0.
+
 o applySideRhythmBorder : Apply a border & whitespace to any side without destroying the vertical rhythm. The whitespace must be greater than the width of the border.
+
 o rhythmBorders : Apply borders and whitespace equally to all sides.
+
 o leadingBorder : Apply a leading border.
+
 o trailingBorder : Apply a trailing border.
+
 o horizontalBorder : Apply both leading border and trailing border
+
 o hBorder : Alias for horizontal-border.
 
 
@@ -67,9 +81,15 @@ OUR IMPLEMENTATION
  The mixins included are:
 
  grTitleSize : Returns CSS of title size based on content width.
+
  grHeadlineSize : Returns CSS of headline size based on content width.
+
  grSubHeadlineSize : Returns CSS of subheadline size based on content width.
+
  grFontSize : Returns CSS of Font size based on content width.
+
  grSecondaryText : Returns CSS of Secondary Text based on content width.
+
  grBaseLineheight : Returns CSS of default line-height based on content width.
+
  grCustomLineheight : Returns CSS of Golden-ratio line-height based on a customvalue specified by the user.
