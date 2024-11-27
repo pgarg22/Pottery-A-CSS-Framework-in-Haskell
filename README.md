@@ -15,11 +15,9 @@ the rhythm is maintained. The basic unit of vertical space is line height. Estab
 suitable line height that can be applied to all text on the page is the key to a solid
 dependable vertical rhythm, which will engage and guide the reader down the page.
 
-
 **OUR IMPLEMENTATION-**
-
+
 **Configurable Variables**- Base Font Size, Base Line Height, Rhythm Border Style, Relative Font Sizing, Round To Nearest Half Line, Font Unit.
-
 
 **Mixins Include-**
 
@@ -55,11 +53,11 @@ o rhythmBorders : Apply borders and whitespace equally to all sides.
 
 o leadingBorder : Apply a leading border.
 
-o trailingBorder : Apply a trailing border.
+trailingBorder : Apply a trailing border.
 
-o horizontalBorder : Apply both leading border and trailing border
+horizontalBorder : Apply both leading border and trailing border
 
-o hBorder : Alias for horizontal-border.
+hBorder : Alias for horizontal-border.
 
 
 
@@ -81,16 +79,16 @@ design, the Golden ratio has proven its worth for aesthetics.
 
 **Mixins Include-**
 
-o grTitleSize - Returns CSS of title size based on content width.
+grTitleSize - Returns CSS of title size based on content width.
 
-o grHeadlineSize - Returns CSS of headline size based on content width.
+grHeadlineSize - Returns CSS of headline size based on content width.
 
-o grSubHeadlineSize - Returns CSS of subheadline size based on content width.
+grSubHeadlineSize - Returns CSS of subheadline size based on content width.
 
-o grFontSize - Returns CSS of Font size based on content width.
+grFontSize - Returns CSS of Font size based on content width.
 
-o grSecondaryText - Returns CSS of Secondary Text based on content width.
+grSecondaryText - Returns CSS of Secondary Text based on content width.
 
- grBaseLineheight : Returns CSS of default line-height based on content width.
+grBaseLineheight : Returns CSS of default line-height based on content width.
 
- grCustomLineheight : Returns CSS of Golden-ratio line-height based on a customvalue specified by the user.
+grCustomLineheight : Returns CSS of Golden-ratio line-height based on a customvalue specified by the user.
